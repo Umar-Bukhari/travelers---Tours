@@ -1,0 +1,40 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+#gallery{
+    background: rgb(140, 232, 242);
+    border: none;
+    border-radius: 5px;
+}
+.nav-item .nav-link{
+    border-radius: 5px;
+    
+}
+.nav-item .nav-link:hover{
+    background: rgb(140, 232, 242);
+    color: white;
+    border: none;
+}
+.row .card img{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.row .card img:hover{
+    transform: scale(1.1);
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: white;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(rgb(155, 232, 255),rgb(123, 238, 234));
+    border-radius: 10px;
+}

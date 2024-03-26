@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Travelers & Tours</title>
+  <link rel="icon" href="./imges/icon.png" type="icon">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/bootstrap.bundle.js"></script>
+  <link rel="stylesheet" href="./fontawesome/css/all.css">
+  <script src="./fontawesome/js/all.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- start of navbar -->
+
+  <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+    <div class="container ">
+      <a href="#"><img src="./imges/bg-icon.png" alt="" height="50px" width="50px"></a>
+      <a class="navbar-brand mt-1" href="Index.html">
+        <h2 class="fw-bold"><span class="text-info">T</span>ravel</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto ms-auto" id="#home">
+          <li class="nav-item dropdown" id="home">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Home
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              
+              <li><a class="dropdown-item" href="#destination">Destination</a></li>
+              <li><a class="dropdown-item" href="#step">Steps</a></li>
+              <li><hr class="dropdown-divider"></li>
+              
+              <li><a class="dropdown-item" href="#facilities">Facilities</a></li>
+              <li><a class="dropdown-item" href="#offer">Offers</a></li>
+              <li><hr class="dropdown-divider"></li>
+
+              <li><a class="dropdown-item" href="#review">Reviews</a></li>
+              <li><a class="dropdown-item" href="#traveler">Travelers</a></li>
+            </ul>
+          </li>
+          <li class="nav-item fw-bold mx-2">
+            <a class="nav-link" href="./links/book/Book.html" target="_blank">Book</a>
+          </li>
+          <li class="nav-item fw-bold mx-2">
+            <a class="nav-link" href="./links/packages/packages.html" target="_blank">Packages</a>
+          </li>
+          <li class="nav-item fw-bold mx-2">
+            <a class="nav-link" href="./links/services/services.html" target="_blank">Services</a>
+          </li>
+          <li class="nav-item fw-bold mx-2">
+            <a class="nav-link" href="./links/gallery/gallery.html" target="_blank">Gallery</a>
+          </li>
+          <li class="nav-item fw-bold mx-2">
+            <a class="nav-link" href="./links/about/about.html" target="_blank">About</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search" required>
+         <a href="#"><button class="btn btn-info" type="button">Search</button></a> 
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- end of navbar -->
+
+  <!-- start of Home -->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imges/1.jpg" class="d-block w-100" alt="..." height="748px">
+        <div class="carousel-caption">
+          <h3 class="fw-bold">Welcome To The World</h3>
+          <h5 class="fw-bold">Visit To <span class="text-info"> <b>JAPAN</b></span></h5>
+          <p>The main predecessor companies of The Travelers Companies, Inc. are The St. Paul Companies, Inc. and
+            Travelers Property Casualty Corporation.</p>
+          <p><a href="#" class="btn btn-info mt-3 text-white">Book Now</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imges/2.jpg" class="d-block w-100" alt="..." height="748px">
+        <div class="carousel-caption">
+          <h3 class="fw-bold">Welcome To The World</h3>
+          <h5 class="fw-bold">Visit To <span class="text-info"><b>UNITED STATE</b></span></h5>
+          <p>The main predecessor companies of The Travelers Companies, Inc. are The St. Paul Companies, Inc. and
+            Travelers Property Casualty Corporation.</p>
+          <p><a href="#" class="btn btn-info mt-3 text-white">Book Now</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imges/3.jpg" class="d-block w-100" alt="..." height="748px">
+        <div class="carousel-caption">
+          <h3 class="fw-bold">Welcome To The World</h3>
+          <h5 class="fw-bold">Visit To <span class="text-info"><b>EROUPE</b></span></h5>
+          <p>The main predecessor companies of The Travelers Companies, Inc. are The St. Paul Companies, Inc. and
+            Travelers Property Casualty Corporation.</p>
+          <p><a href="#" class="btn btn-info mt-3 text-white">Book Now</a></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+
+  <!-- End of Home -->
+
+
+
+  
+
+  <!-- start of distination -->
+
+
+
+  <div class="container" id="destination">
+    <div class="row" style="text-align: center; margin-top: 60px;">
+      <div class="col-lg-12">
+        <h1 class="fw-bold">Top<span class="text-info"> Destinations</span></h1>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row" style="margin-top: 50px;">
+      <div class="col-lg-4">
+        <div class="card" style="width:400px">
+          <img class="" src="./imges/pissa towe.jpg" alt="Card image" height="300px" width="400px">
+          <div class="card-body">
+            <h4 class="card-title">Pisa Tower</h4>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod cumque atque
+              repellat qui, adipisci similique illum. Quo, recusandae quae!</p>
+            <a href="#" class="btn btn-info">Destination</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card" style="width:400px">
+          <img class="" src="./imges/clock tower.webp" alt="Card image" height="300px" width="400px">
+          <div class="card-body">
+            <h4 class="card-title">Clock Tower</h4>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod cumque atque
+              repellat qui, adipisci similique illum. Quo, recusandae quae!</p>
+            <a href="#" class="btn btn-info">Destination</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card" style="width:400px">
+          <img class="" src="./imges/best.jpeg" alt="Card image" height="300px" width="400px">
+          <div class="card-body">
+            <h4 class="card-title">England Bridge</h4>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod cumque atque
+              repellat qui, adipisci similique illum. Quo, recusandae quae!</p>
+            <a href="#" class="btn btn-info">Destination</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End of distination -->
+
+
+  <!-- start of steps -->
+
+  <div class="container" id="step">
+    <div class="row" style="text-align: center; margin-top: 60px;">
+      <div class="col-lg-12">
+        <h1 class="fw-bold">Easy<span class="text-info"> Steps</span> For Travel</h1>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8" style="margin-top: 90px;">
+        <h3>1 : Decide Where You Want To GO</h3>
+        <h3>2 : Check the Travel Advice and Advisories </h3>
+        <h3>3 : Book Your Flight</h3>
+        <h3>4 : Take Care of Your Health</h3>
+        <h3>5 : Research Your Destination</h3>
+        <h3>6 : Pick Your Must-do</h3>
+        <h3>7 : Plan Your Itinerary</h3>
+        <h3>8 : Book Your Accommodation (or not)</h3>
+      </div>
+      <div class="col lg 4" style="margin-top: 20px;">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="./imges/trip.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title fw-bold">Trip</h4>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod cumque atque
+              repellat qui, adipisci similique illum. Quo, recusandae quae!</p>
+            <a href="#" class="btn btn-info">Destination</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- end of steps -->
+
+  <!-- start of facilities -->
+
+  <div class="container" id="facilities">
+    <div class="row" style="text-align: center; margin-top: 60px;">
+      <div class="col-lg-12">
+        <h1 class="fw-bold">Our<span class="text-info"> Facilities</span></h1>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="container">
+    <div class="row" style="margin-top: 50px;">
+      <div class="col-lg-4">
+        <div class="card" style="width:400px">
+          <img class="" src="./imges/bedroom.jpg" alt="Card image" height="300px" width="400px">
+          <div class="card-body">
+            <h4 class="card-title">Luxury Bedrooms</h4>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod cumque atque
+              repellat qui, adipisci similique illum. Quo, recusandae quae!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card" style="width:400px">
+          <img class="" src="./imges/food.jpeg" alt="Card image" height="300px" width="400px">
+          <div class="card-body">
+            <h4 class="card-title">Best Food</h4>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod cumque atque
+              repellat qui, adipisci similique illum. Quo, recusandae quae!</p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card" style="width:400px">
+          <img class="" src="./imges/swimmng pool.jpg" alt="Card image" height="300px" width="400px">
+          <div class="card-body">
+            <h4 class="card-title">Swimming Pools</h4>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod cumque atque
+              repellat qui, adipisci similique illum. Quo, recusandae quae!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- end of facilities -->
+
+
+
+  <!-- start of offers -->
+
+  <div class="container" id="offer">
+    <div class="row" style="text-align: center; margin-top: 60px;">
+      <div class="col-lg-12">
+        <h1 class="fw-bold">We Provides Best <span class="text-info"> Offers</span></h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row" style="text-align: center; margin-top: 50px;">
+      <div class="col-lg-3">
+        <div class="card">
+          <i class="fas fa-institution"
+            style="height: 150px; width: 150px; color: rgb(60, 190, 226); margin-left: 80px; margin-top: 20px;"></i>
+          <h1 class="fw-bold">Best Institution For Clients</h1>
+          <p>The great advantage <br> of a hotel is that <br> it is a refuge from home life.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card">
+          <i class="fas fa-plane-departure"
+            style="height: 150px; width: 150px; color: rgb(60, 190, 226); margin-left: 80px; margin-top: 20px;"></i>
+          <h1 class="fw-bold">Early Departure flight</h1>
+          <p>The great advantage <br> of a hotel is that <br> it is a refuge from home life.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card">
+          <i class="fas fa-microphone"
+            style="height: 150px; width: 150px; color: rgb(60, 190, 226); margin-left: 80px; margin-top: 20px;"></i>
+          <h1 class="fw-bold">Microphone Offers</h1>
+          <p>The great advantage <br> of a hotel is that <br> it is a refuge from home life.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card">
+          <i class="fas fa-gear"
+            style="height: 150px; width: 150px; color: rgb(60, 190, 226); margin-left: 80px; margin-top: 20px;"></i>
+          <h1 class="fw-bold">Cummunication In Plane</h1>
+          <p>The great advantage <br> of a hotel is that <br> it is a refuge from home life.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- End of offers -->
+
+
+
+
+
+
+      <!-- start of Reviews -->
+
+
+      <div class="container" id="review" >
+        <div class="row" style="text-align: center; margin-top: 60px;">
+          <div class="col-lg-12">
+            <h1 class="fw-bold"><span class="text-info">R</span>eviews</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="margin-top: 50px;">
+    <div class="row" style="margin-top: 20px;">
+      <div class="col-lg-4">
+        <div class="d-flex">
+          <div><img src="./imges/i.jpeg" alt="" height="80px" width="80px" style="border-radius: 10px; margin-left: 120px;"></div>
+        </div> 
+        <i class="fa fa-star" aria-hidden="true" style="color: goldenrod;  margin-left: 100px;"></i>
+        <i class="fa fa-star" aria-hidden="true" style="color: goldenrod;"></i>
+        <i class="fa fa-star" aria-hidden="true" style="color: goldenrod;"></i>
+        <i class="fa fa-star" aria-hidden="true" style="color: goldenrod;"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <p style="margin-top: 20px;">We will also facilitate the business marketing of these digital products with our SEO experts so
+          that they become ready to use website & products from Company
+        </p>
+
+       
+
+      </div>
+
+      <div class="col-lg-4">
+        <div class="d-flex">
+          <div><img src="./imges/ii.jpeg" alt="" height="80px" width="80px" style="border-radius: 10%; margin-left: 120px;"></div>
+        </div> 
+        <i class="fa fa-star" aria-hidden="true" style="color: goldenrod;  margin-left: 100px;"></i>
+        <i class="fa fa-star" aria-hidden="true" style="color: goldenrod;"></i>
+        <i class="fa fa-star" aria-hidden="true" style="color: goldenrod;"></i>
+        <i class="fa fa-star" aria-hidden="true" style="color: goldenrod;"></i>
+        <i class="fa fa-star" aria-hidden="true" style="color: goldenrod;"></i>
+        <p style="margin-top: 20px;">We will also facilitate the business marketing of these digital products with our SEO experts so
+          that they become ready to use website & products from Company
+        </p>
+
+        
+
+      </div>
+
+
+      <div class="col-lg-4">
+        <div class="d-flex">
+          <div><img src="./imges/iii.jpg" alt="" height="80px" width="80px" style="border-radius: 10%; margin-left: 120px;"></div>
+        </div>
+        <i class="fa fa-star" aria-hidden="true" style="color: goldenrod; margin-left: 100px;"></i>
+        <i class="fa fa-star" aria-hidden="true" style="color: goldenrod;"></i>
+        <i class="fa fa-star" aria-hidden="true" style="color: goldenrod;"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <p style="margin-top: 20px;">We will also facilitate the business marketing of these digital products with our SEO experts so
+          that they become ready to use website & products from Company
+        </p>
+
+        
+
+      </div>
+    </div>
+   </div>
+  </div>
+
+
+<!-- end of Reviews -->
+
+
+
+
+<!-- strat  of best travelers -->
+
+<div class="container" id="traveler">
+  <div class="row" style="text-align: center; margin-top: 60px;">
+    <div class="col-lg-12">
+      <h1 class="fw-bold">Best<span class="text-info"> Travelers</span> Of The Month</h1>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3" style="text-align: center; margin-top: 50px;">
+      <div class="card" >
+        <img class="card-img-top" src="./imges/emily.jpeg" height="300px" width="250px" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Emaily Jones</h4>
+          <p class="card-text">Dubai</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3" style="text-align: center; margin-top: 50px;">
+      <div class="card" >
+        <img class="card-img-top" src="./imges/divid.jpeg" height="300px" width="250px" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">David Smith</h4>
+          <p class="card-text">Paris</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3" style="text-align: center; margin-top: 50px;">
+      <div class="card" >
+        <img class="card-img-top" src="./imges/brown.jpg" height="300px" width="250px" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Olivia Brown</h4>
+          <p class="card-text">Singapore</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3" style="text-align: center; margin-top: 50px;">
+      <div class="card" >
+        <img class="card-img-top" src="./imges/deni.webp" height="300px" width="250px" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Daniel Taylor</h4>
+          <p class="card-text">Malaysia</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- end  of best travelers -->
+
+  <div class="container-fluid bg-light" style="margin-top: 50px;">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="fw-bold" style="text-align: center; margin-top: 70px ;"><span class="text-info">T</span>ravel</h1>
+        <p style="text-align: center; margin-top: 20px;"><b><i>The company has field offices in every U.S. state, plus
+              operations in the United Kingdom, Ireland, Singapore, China, Canada, and Brazil. Travelers ranked No. 98
+              in the 2021 Fortune 500 list of the largest United States corporations with total revenue of $32
+              billion.[6]</i></b></p>
+        <div style="text-align: center;">
+          <a href="#"><i class="fa-brands fa-facebook-f mx-2 fs-3" style="color: black; margin-top: 30px;"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter mx-2 fs-3" style="color: black;  margin-top: 30px;"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin mx-2 fs-3" style="color: black;  margin-top: 30px;"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram mx-2 fs-3" style="color: black;  margin-top: 30px;"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube mx-2 fs-3" style="color: black;  margin-top: 30px;"></i></a>
+        </div>
+        <div style="text-align: center;" class="mt-3">
+          <p>Designed By <b>Syed Umar</b></p>
+        </div>
+        <div style="text-align: center;" class="mt-3">
+          <p>@Copywrites All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+#service{
+    background: rgb(140, 232, 242);
+    border: none;
+    border-radius: 5px;
+  
+
+}
+.nav-item .nav-link{
+    border-radius: 5px;
+    
+}
+.nav-item .nav-link:hover{
+    background: rgb(140, 232, 242);
+    color: white;
+    border: none;
+}
+.row .card{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background: #f9f9f9;    
+    border: none;
+    cursor: pointer;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: white;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(rgb(155, 232, 255),rgb(123, 238, 234));
+    border-radius: 10px;
+}
+
